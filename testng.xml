@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- thread-count 定义同时启动的浏览器数 、parallel="tests" 表明每个test都是平级的 -->
+<suite name="cucumber-test" parallel="classes" thread-count="1">
+	<test name="360搜索cucumber" preserve-order="true">
+		<classes>
+			<class name="com.young.cucumber.TestRunnerWithTestNG" />
+		</classes>
+	</test>
+</suite> 
